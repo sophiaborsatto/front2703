@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadorat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--classe: serve para classificar(abstrair) os dados que um objeto vai possuir-->
+    <div class="calculadora">
+        <div class="inputs">
+            <input type="number" id="numero1" placeholder="Numero 1">
+            <input type="number" id="numero2" placeholder="Numero 2">
+
+        </div>    
+
+        <div class="botoes">
+            <button onclick="somar()">+</button>
+            <button onclick="subtrair()">-</button>
+            <button onclick="multiplicar()">*</button>
+            <button onclick="dividir()">/</button>
+        </div>        
+
+        <div class="resultado">
+            <h1>Resultado</h1>
+            <h2 id="resultado"></h2>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
